@@ -1,0 +1,275 @@
+@font-face{
+    font-family: "seagram";
+    src: url("fonts/Seagram\ tfb.ttf");
+}
+@font-face{
+    font-family: "MiddleAges_PERSONAL_USE";
+    src: url("fonts/MiddleAges_PERSONAL_USE.ttf");
+}
+@font-face{
+    font-family: "Elron Monospace";
+    src: url("fonts/Elronmonospace.ttf");
+}
+
+nav{
+    font-family: "Elron Monospace";
+}
+
+h1{
+    font-family: "MiddleAges_PERSONAL_USE";
+}
+
+body{
+
+margin:0;
+
+color:white;
+
+background: 
+linear-gradient(rgb(0, 0, 0), rgb(27, 13, 13)),
+
+url("https://64.media.tumblr.com/tumblr_lp9detnicQ1qm6h95o1_500.gifvf");
+
+background-size:cover;
+background-attachment:fixed;
+}
+
+/* MENU */
+
+nav{
+
+padding: 30px;
+
+background:rgba(0,0,0,0.7);
+
+text-align:center;
+
+text-decoration:none;
+
+transition:0.3s;
+
+backdrop-filter: blur(8px);
+
+}
+
+nav:hover{
+color:#932828;
+}
+
+/* CONTEÚDO */
+
+.principal{
+
+text-align:center;
+
+padding:30px 10px;
+
+max-width:700px;
+
+margin:auto;
+ padding: 10px 10px 30px;
+
+}
+
+h1{
+font-size:50px;
+
+color: #6d0303;
+}
+
+
+/* IMAGEM */
+
+.capa{
+
+width:220px;
+
+margin:25px auto;
+
+display:block;
+
+border-radius:10px;
+
+box-shadow:0 0 40px rgba(137, 137, 137, 0.4);
+
+width:  fit-content;
+
+ animation: float 3s ease-in-out infinite;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+
+}
+
+    @keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-5px); /* Move para cima */
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+/* BOTÃO */
+
+button{
+
+margin-top:25px;
+
+padding:20px 30px;
+
+font-size:16px;
+
+border:none;
+
+background: none;
+
+color:white;
+
+cursor:pointer;
+
+transition:0.3s;
+
+justify-content:center;
+
+gap: 50px;
+
+font-family: 'Courier New', Courier, monospace;
+
+
+
+}
+
+button:hover{
+
+transform:scale(0.9);
+
+background-color: rgba(255, 255, 255, 0.106); 
+
+color: white;
+
+}
+
+h2.subtitulo{
+    font-size: small;
+
+}
+
+.frase{
+    font-size: 20px;
+    font-family: 'seagram';
+    color: #be0000dc;
+    margin-top: 20px;
+}
+
+.fundo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    
+}
+
+.conteudo{
+max-width: 800px;
+margin: auto;
+padding: 40px;
+text-align: center;
+color: white;
+}
+
+.conteudo h1{
+font-size: 40px;
+margin-bottom: 20px;
+}
+
+.conteudo p{
+font-size: 18px;
+line-height: 1.6;
+margin-bottom: 20px;
+}
+
+
+.backgroundhistoria{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 20%;
+}
+
+.titulo-personagens{
+text-align:center;
+color:rgb(130, 4, 4);
+font-size:40px;
+margin-top:40px;
+margin-bottom:40px;
+}
+
+.cards{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:30px;
+padding:20px;
+}
+
+.card{
+background:black;
+border:1px solid rgb(110, 11, 11);
+width:220px;
+text-align:center;
+padding:15px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.card img{
+width:100%;
+border-radius:8px;
+}
+
+.card h2{
+color:rgb(119, 9, 9);
+margin-top:10px;
+}
+
+.card p{
+color:#ffffff;
+font-size:14px;
+}
+
+.card:hover{
+transform:scale(1.05);
+box-shadow:0 0 15px rgb(151, 3, 3);
+}
+
+.botoes{
+text-align:center;
+margin-top:20px;
+margin-bottom:40px;
+}
+
+.botoes a{
+color:white;
+text-decoration:none;
+font-size:18px;
+transition:0.3s;
+}
+
+.botoes a:hover{
+color:rgb(126, 0, 0);
+text-shadow:0 0 10px rgb(121, 0, 0);
+}
+
+.botoes a:visited{
+color:white;
+}
